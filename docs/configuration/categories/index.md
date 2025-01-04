@@ -30,8 +30,9 @@ The name of the ticket channel.
 
 #### Available placeholders
 
-- `{num}`/`{number}`
-- `{name}`/`{username}`
+- `{num}`/`{number}` - What number the ticket is in the system (Note: this is across all categories)
+- `{name}`/`{username}` - The username of the person who opened it
+- `{nick}` / `{nickname}` - The nickname of the person who opened it
 
 
 ### Claiming
